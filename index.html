@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    
+    <div class="game">
+        <P>крестики нолики</P>
+        <br>
+        
+        <button onclick="reload();">играть</button>
+        <br>
+        <div class="row">
+            <div id="0_0" onclick="clickbox(this);"></div>
+            <div id="1_0" onclick="clickbox(this);"></div>
+            <div id="2_0" onclick="clickbox(this);"></div>
+        </div>
+
+        <div class="row">
+            <div id="0_1" onclick="clickbox(this);"></div>
+            <div id="1_1" onclick="clickbox(this);"></div>
+            <div id="2_1" onclick="clickbox(this);"></div>
+        </div>
+
+        <div class="row">
+            <div id="0_2" onclick="clickbox(this);"></div>
+            <div id="1_2" onclick="clickbox(this);"></div>
+            <div id="2_2" onclick="clickbox(this);"></div>
+        </div>
+    </div>
+</body>
+</html>
